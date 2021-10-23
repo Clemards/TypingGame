@@ -1,0 +1,56 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body {
+    background: #f1c40f;
+    color: #2c3e50;
+    font-family: 'Langar', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#score, #record{
+    display:block;
+    margin: auto;
+    margin-top: 150px;
+    width: 50vw;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+}
+#record {margin-top: unset;}
+
+#link {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 150px;
+    width: 50vw;
+}
+#tryAgain, #home {
+    display: block;
+    width: 25%;
+    cursor: pointer;
+    padding: 10px;
+    background: #2c3e50;
+    color: #f1c40f;
+    font-size: 30px;
+    border-radius: 10px;
+    text-decoration: unset;
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5mm;
+    position:absolute;
+    width:100%;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 15px;
+}
+#footer > i {font-family: sans-serif;}

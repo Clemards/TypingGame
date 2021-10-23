@@ -1,0 +1,71 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body {
+    background: #f1c40f;
+    color: #2c3e50;
+    font-family: 'Langar', sans-serif;
+}
+
+#timer, #player {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    background: #2c3e50;
+    color: #f1c40f;
+    max-width: 30vw;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#quote {font-size: 20px;}
+
+#typing {
+    background: #2c3e50;
+    color: #f1c40f;
+    border: solid 1px #f1c40f88;
+    outline: unset;
+    resize: none;
+    width: 80%;
+    height: 130px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#typing:focus {
+    border: solid 1px #f1c40f;
+}
+
+.correct {color: #27ae60;}
+.incorrect {color: #c0392b;}
+
+#score{
+    display:block;
+    margin: auto;
+    margin-top: 150px;
+    width: 20vw;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5mm;
+    position:absolute;
+    width:100%;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 15px;
+}
+#footer > i {font-family: sans-serif;}

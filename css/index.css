@@ -1,0 +1,90 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body {
+    background: #f1c40f;
+    color: #2c3e50;
+    font-family: 'Langar', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+}
+h1 > i {font-family: sans-serif;}
+
+h2{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 35px;
+    margin-top: auto;
+}
+
+/* Container HighScore & Select Player */
+#usrInfos {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#newPlayer, #selectPlayer{
+    background: #2c3e50;
+    color: #f1c40f;
+    padding: 20px;
+    border-radius: 10px;
+}
+#newPlayer > form, #selectPlayer > form {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    background: #2c3e50;
+    color: #f1c40f;
+}
+
+input[type=text] {
+    border: unset;
+    border-bottom: solid 2px #f1c40f;
+    background: #2c3e50;
+    color: #f1c40f;
+    text-align: center;
+    font-family: sans-serif;
+    outline: none;
+}
+
+input[type=submit] {
+    background: #f1c40f;
+    color: #2c3e50;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+    border: solid 1px #f1c40f;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-top: 5px;
+}
+input[type=submit]:hover {
+    background: #2c3e50;
+    color: #f1c40f;
+}
+
+#eptName {
+    color: red;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5mm;
+    position:absolute;
+    width:100%;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+}
